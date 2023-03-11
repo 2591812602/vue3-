@@ -25,6 +25,22 @@ const router=createRouter({
       path:"/order",
       component:()=>import("@/views/order/order.vue")
     }
+    ,
+    {
+      path:"/city",
+      component:()=>import("@/views/city/city.vue"),
+      meta:{
+        hidetabbar:true
+      }
+    }
+    ,
+    {
+      path:"/search",
+      component:()=>import("@/views/search/search.vue"),
+      meta:{
+        hidetabbar:true
+      }
+    }
 
   ]
 })

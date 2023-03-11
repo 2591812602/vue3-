@@ -1,6 +1,10 @@
 :root{
   --primary-color:#ff9854;
-  --van-tabbar-item-icon-size:30px !important
+  --van-tabbar-item-icon-size:30px !important;
+  --van-search-left-icon-color:var(--primary-color);
+  --van-calendar-popup-height:100%;
+  --theme-linear-gradient:linear-gradient(90deg,#fa8c1d,#fcaf3f)
+
 }
 body{
   font-size: 14px;
